@@ -1,0 +1,5 @@
+.uniform-image {
+    width: 150px; /* Set your desired width */
+    height: 150px; /* Set your desired height */
+    object-fit: cover; /* Ensures the image covers the element box, cropping if necessary */
+  }

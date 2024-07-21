@@ -1,0 +1,88 @@
+/* Container to center content */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  /* Form styling */
+  .form-container {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  h2, h4 {
+    text-align: center;
+  }
+  
+  .mt-4 {
+    margin-top: 2rem;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+  }
+  
+  h4 {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Center align the report modal */
+  .modal-content {
+    text-align: center;
+  }
+  
+  .modal-footer {
+    justify-content: center;
+  }
+  
+  /* Align the expenses list */
+  .list-group {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .list-group-item {
+    text-align: left; /* Align text to left for readability */
+  }
+  
+  /* Button styling */
+  .btn-info, .btn-primary, .btn-secondary {
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+  }
+  
+  .btn-info {
+    background-color: #17a2b8;
+    border: none;
+  }
+  
+  .btn-info:hover {
+    background-color: #138496;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
